@@ -10,36 +10,20 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.softdesign.devintensive.ui.activities.MainActivity">
-
-    <EditText
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello DevIntensive!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/red_btn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="Red Btn" />
-
-        <Button
-            android:id="@+id/green_btn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:text="Green Btn" />
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="@dimen/size_small_24"
+            android:layout_height="@dimen/size_small_24" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"></LinearLayout>
+        <ImageView
+            android:layout_width="@dimen/size_small_24"
+            android:layout_height="@dimen/size_small_24" />
     </LinearLayout>
-
 </LinearLayout>
