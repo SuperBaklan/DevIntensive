@@ -66,5 +66,7 @@
     <dimen name="padding_0">0dp</dimen>
     <dimen name="button.likes_size">96dp</dimen>
     <dimen name="profile.likesBox_size">76dp</dimen>
+    <dimen name="size_big_72">72dp</dimen>
+    <dimen name="line_size">2dp</dimen>
 
 </resources>

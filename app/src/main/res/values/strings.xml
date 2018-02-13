@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Иван Бакланов</string>
+    <string name="counter_tv">5</string>
+    <string name="rating_tv">Рейтинг</string>
+    <string name="code_lines_counts_tv">Написано строк кода</string>
+    <string name="project_counts_tv">Проектов</string>
+    <string name="phone_et_hint">Мобильный телефон</string>
+    <string name="phone_et_default">+7 (917) 971-11-11</string>
+    <string name="email_et_hint">E-mail</string>
+    <string name="email_et_default">example@example.com</string>
+    <string name="vk_et_hint">Профиль в VK</string>
+    <string name="vk_et_default">vk.com/makeeb_mihail</string>
+    <string name="github_et_hint">Репозиторий</string>
+    <string name="github_et_default">github.com/makweb/DevIntensive</string>
+    <string name="self_et_hint">О себе</string>
+    <string name="self_et_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
 </resources>
